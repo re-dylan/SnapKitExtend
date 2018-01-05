@@ -26,22 +26,9 @@ class ViewController: UIViewController {
         view.addSubview(greenView)
         view.addSubview(blueView)
         let views =  [redView, greenView, blueView]
-//        views.snp.distributeViewsAlong(axis: .vertical, fixedSpacing: 0) { (make) in
-//            make.width.equalTo(100)
-//        }
         views.snp.distributeViewsAlong(axis: .vertical, fixedItemLength: 100) { make in
             make.width.equalTo(100)
         }
-        
-        let yellowView = UIView()
-        yellowView.backgroundColor = UIColor.yellow
-        view.addSubview(yellowView)
-        yellowView.snp.makeConstraints { make in
-            make.centerY.equalToSuperview()
-            make.width.height.equalTo(100)
-            make.right.equalToSuperview().multipliedBy(CGFloat(1)/2).offset(100)
-        }
     }
-
 }
 
