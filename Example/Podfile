@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SnapKitExtend_Example' do
+  pod 'SnapKitExtend', :path => '../'
+
+  target 'SnapKitExtend_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
