@@ -1,0 +1,19 @@
+PODS:
+  - SnapKit (4.0.0)
+  - SnapKitExtend (0.1.0):
+    - SnapKit
+
+DEPENDENCIES:
+  - SnapKitExtend (from `../`)
+
+EXTERNAL SOURCES:
+  SnapKitExtend:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SnapKitExtend: 6a37e164b737285ee427a643e26ad745b173c012
+
+PODFILE CHECKSUM: fdddac0bd82b1154c1f4725ba99cf58278993432
+
+COCOAPODS: 1.3.1
