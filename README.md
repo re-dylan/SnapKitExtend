@@ -1,6 +1,6 @@
 # SnapKitExtend
 
-Add some extension for SnapKit.
+Add some extension for [SnapKit](https://github.com/SnapKit/SnapKit).
 
 ## Example
 
@@ -36,6 +36,7 @@ class MyViewController: UIViewController {
 }
 ```
 ### Views layout
+See [Masonry](https://github.com/snapkit/masonry/blob/master/Masonry/NSArray%2BMASAdditions.m) swift version
 ``` swift
 class ViewController: UIViewController {
 
